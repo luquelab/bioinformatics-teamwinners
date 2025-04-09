@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Installation
+title: Documentations
 nav_order: 2
 ---
 
-# Installation
+# Documentations
 
-Here’s how to install it.
+Here’s the background
