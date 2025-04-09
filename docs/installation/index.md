@@ -7,5 +7,4 @@ nav_order: 2
 
 # Installation
 
-Here’s how to install it...
-
+How to set things up...
