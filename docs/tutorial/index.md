@@ -6,7 +6,7 @@ nav_order: 3
 
 # Tutorial
 
-# Running pyCapsid remotely on Google Colab
+# Running Pipeline on Google Colab
 The simplest way to use the Pipeline is using this [colab notebook]([https://colab.research.google.com/github/luquelab/pyCapsid/blob/main/notebooks/pyCapsid_colab_notebook.ipynb](https://colab.research.google.com/github/luquelab/bioinformatics-teamwinners/blob/colab_dev/notebooks/sequence_analysis_pipeline.ipynb)) which runs the pipeline on a free Google cloud-based platform in a Jupyter environment. The Colab notebook is self documenting and is designed to be simple to use. 
 
 This quick-start guide is also included within the notebook.
