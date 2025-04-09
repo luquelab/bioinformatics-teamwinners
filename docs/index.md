@@ -1,2 +1,10 @@
-testing our website!
-Page linked to GitHub Page branch
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
+# Welcome to TeamWinners!
+
+Intro to the project...
+
