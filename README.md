@@ -22,24 +22,27 @@ phylo_analysis_project/
     └── functional_prediction/               # functional_prediction_path
         └── (prediction files …)          
 
-# Overall process
-1. Uploading necessary starting materials
-Install BioPython.
-Upload the provided file called sequences.fna and set it equal to sequences_path so the file path doesn't have to be repasted into future code.
-Import SeqIO and parse the fasta file.
+# Inputs
+``` nucleotide_sequence_path =  "/content/sequences.fna" #input file paths ```
 
-2. Analyzing sequence properties
+Provide your nucleotide sequences file path.
+The sequences file must contain at least two sequences because at least two sequences are required to to do a sequence alignment, which compares sequences to one another. This file must contain nucleotide sequences and be a .fasta or .fna file.
+
+# Overall process
+1. Upload necessary starting materials (see inputs above)
+
+
+2. Analyze sequence properties
 Parse the sequences.fna file to extract the sequence lengths and their GC values.
 Graph the values using Matplot.
 
-3. Translating the sequences
-Set your translation_table to = 11
-Set the translated_seq equal to seq_record.seq.translate to translate the sequence
-Create a new SeqRecord for thr transated sequence and save it to a new file
+3. Translate the sequences
+Set the translated_seq equal to seq_record.seq.translate to translate the sequence.
+Create a new SeqRecord for the transated sequence and save it to a new file.
 
 4. Sequence alignment
 Import the necessary libraries/materials and install Mafft.
-Use Mafft to execute the alignment and parse the output uing StringIO
+Use Mafft to execute the alignment and parse the output using StringIO.
 Save the alignment to a file, then repeat this process for the protein alignment.
 
 5. Similarity estimations
@@ -54,7 +57,11 @@ Create a DistanceTreeConstructor object.
 Construct the phylogenetic tree.
 
 7. Making predictions using BLAST
-Convert the translated sequences into list format.
+``` def calculate_similarity(dist_matrix, alignment, output_csv):
+    similarity_matrix = 1 - dist_matrix
+    np.fill_diagonal(similarity_matrix, np.nan)
+``` 
+Convert the translated sequences into list format. This must be done so the information can be interpreted by BLAST.
 Import the necessary libraries and materials.
 Conduct a BLAST query defining the following parameters: Bio.SeqRecird object (your sequence), type of BLAST program, database, hitlist size, output directory.
 
