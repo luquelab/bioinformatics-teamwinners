@@ -8,7 +8,7 @@ nav_order: 4
 This bioinformatics pipeline investigates mystery sequences. It contains a complete workflow to analyze unknown DNA sequences using sequence-level analysis and will characterize unknown nucleotide sequences provided as input, predict their function, origin, and relationships. The following are some of the outputs created by the notebook to analyze the sequences. 
 
 ## Alignments
-The pipelineq calculated basic sequence properties such as sequence length and GC content, which provide initial insights into the composition of each DNA sample. The bar graph on the left shows the length of each sequence, helping to identify unusually short or long entries. The GC content graph on the right reflects the percentage of guanine and cytosine nucleotides, which can influence the stability and structure of DNA.
+The pipeline calculated basic sequence properties such as sequence length and GC content, which provide initial insights into the composition of each DNA sample. The bar graph on the left shows the length of each sequence, helping to identify unusually short or long entries. The GC content graph on the right reflects the percentage of guanine and cytosine nucleotides, which can influence the stability and structure of DNA.
 Below the graphs, pairwise alignment scores between sequences (both nucleotide and protein-level) are displayed in a matrix format. These scores are useful for estimating sequence similarity, which can inform downstream functional or evolutionary analyses.
 
 ![1](sequence_properties.png)
