@@ -1,0 +1,9 @@
+title: Bioinformatics TeamWinners
+remote_theme: just-the-docs/just-the-docs
+
+# Optional
+search_enabled: true
+color_scheme: light
+
+# Automatically sort sidebar pages
+nav_sort: case_insensitive
