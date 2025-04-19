@@ -1,5 +1,5 @@
 # Here is a sample file directory:jdfsk
-phylo_analysis_project/
+``` phylo_analysis_project/
 |
 |–– README.md
 |–– bin/
@@ -21,7 +21,7 @@ phylo_analysis_project/
     |
     └── functional_prediction/               # functional_prediction_path
         └── (prediction files …)          
-
+```
 # Inputs
 ``` nucleotide_sequence_path =  "/content/sequences.fna" #input file paths ```
 
