@@ -23,11 +23,15 @@
         └── (prediction files …)          
 ```
 # Inputs
-``` nucleotide_sequence_path =  "/content/sequences.fna" #input file paths ```
+``` nucleotide_sequence_path = os.path.join(base_path, "sequences.fna")  # input file paths```
 
 Provide your nucleotide sequences file path.
 The sequences file must contain at least two sequences because at least two sequences are required to to do a sequence alignment, which compares sequences to one another. This file must contain nucleotide sequences and be a .fasta or .fna file.
 
+```
+base_path = "/content"  # Can be changed to any directory, e.g., "/home/user/data"
+```
+The base bath can be reconfigured here, allowing th notebook to be downloaded and run without a hustle.
 # Overall process
 1. Upload necessary starting materials (see inputs above)
 
