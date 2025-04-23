@@ -1,5 +1,5 @@
 # Folder Contents
-This `examples` folder contains an [example .fasta file](https://github.com/luquelab/bioinformatics-teamwinners/blob/main/examples/tutorial_sequences.fasta) to test the bioinformatics pipeline. The remainder of the files in this folder are example results outputted by the model found in the [outputs]() folder. When executed with different input data, the pipeline will still output these files; however, the values and visuals will of course change accordingly.
+This `examples` folder contains an [example .fasta file](https://github.com/luquelab/bioinformatics-teamwinners/blob/main/examples/tutorial_sequences.fasta) to test the bioinformatics pipeline. The remainder of the files in this folder are example results outputted by the model found in the [outputs](https://github.com/luquelab/bioinformatics-teamwinners/tree/main/examples/outputs) folder. When executed with different input data, the pipeline will still output these files; however, the values and visuals will of course change accordingly.
 
 ## Categories of results
 - Alignments
