@@ -62,3 +62,6 @@ Construct the phylogenetic tree for nucleotide sequences and amino acid sequence
 10. Define your pipeline (performing the BLAST and HMMR queries on each sequence), using the format:fasta_file = INPUT_FASTA, out_dir = OUTPUT_DIR. This will run the pipeline for each sequence and save the domain, organism, and function predictions to CSV files.
 Use the results to create the data frames.
 Execute the pipeline!
+
+# GitHub Pages
+Our [Pages](https://luquelab.github.io/bioinformatics-teamwinners/) site is connected to this repository and includes information about our pipeline and how to best run it.
